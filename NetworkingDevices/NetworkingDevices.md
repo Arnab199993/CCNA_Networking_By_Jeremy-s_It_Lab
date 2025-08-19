@@ -90,3 +90,9 @@ c. A next generation firewall
 d. A top layer firewall
 
 Ans: A next generation firewall
+
+
+
+Routers are needed when end hosts needed to reach outside of their LAN.
+
+Switches look at the destination layer 2 address to determine where to send the data.
