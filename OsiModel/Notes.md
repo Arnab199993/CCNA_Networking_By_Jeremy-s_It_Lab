@@ -85,7 +85,7 @@ L2 trailer + Data flows to layer 5 + Layer 4 header added + L3 header added (L4 
 
 Data isnt furthur encapsulated at layer 1. The frame is then sent over the connection, whether its electrical signals over a wire or wireless signals in the case of wifi, to the neighboring system.
 
-# 1 Data Link Layer
+# 1 Physical Layer
 
 1. Defines physical characterstics of the medium used to transfer data between devices.
 2. For example, voltage levels, maximum transmittion, distances, physical connectors, cable specifications, etc.4
@@ -93,6 +93,47 @@ Data isnt furthur encapsulated at layer 1. The frame is then sent over the conne
 4. All of the information in Day 2's video (cables,pin,layouts, etc) is related to physical layer.
 
 The data comes from the applicationn to physical and when it reaches to the neighour device in the network the layer 2 header and trailer are removed in layer 3 network and then layer 3 header are removed in transport leaving only data and layer 4 header and finally layer 4 data is removed and we are left with the only original data prepared by the upper layer of the original device.
+
+# Data + Layer 4 Header = Segments
+# Data + Layer 4 Header + Layer 3 header =Packet
+# Data + Layer 4 Header + Layer 3 header + Layer 2 Header + Layer 2 trailer = Frame
+
+# Segements, Packet and Frame are called PDU (Protocol Data Unit). Layer 1 PDU is called Bit.
+
+
+# Tips to remember OSI Model
+
+All people seem  to need data processing. (Layer 7 to Layer 1)
+Please DO Not Teach Students Pointless Acronyms (Layer 1 to Layer 7)
+
+
+# TCP IP Suite
+
+Conecptual Model and set of communications protocols used in the internet and other networks.
+Known as Tcp/Ip because those are two of the foundational protocols in the suite.
+It was developed by United States Department of Defense through DARPA (Defense Advanced Research Project Agency)
+It has similar structure as OSI Model but with fewer layers.
+This is the model actually in use in modern networks.
+
+Note : The OSI model still influences how network engineers think and talk about networks.
+
+# TCP IP Layers
+
+# Layer 4 - Application Layer
+# Layer 3 - Transport Layer
+# Layer 2 - Internet
+# Layer 1 - Link
+
+OSI's application + presentation + session = Tcp/Ip's application
+OSI's Transport = Tcp/Ip's transport
+OSI's Network = Tcp/Ip's Internet
+OSI's Data Link + physical = Link
+
+
+Adjacent layer interaction refers to interaction between different layers of OSI model.
+Same layer interaction refers to interation between same layer of different hosts
+
+
 
 
 
