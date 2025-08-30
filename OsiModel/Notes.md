@@ -131,7 +131,19 @@ OSI's Data Link + physical = Link
 
 
 Adjacent layer interaction refers to interaction between different layers of OSI model.
-Same layer interaction refers to interation between same layer of different hosts
+Same layer interaction refers to interation between same layer of different hosts.
+
+STP means Spanning Tree Protocol and it operates at layer 2.
+IEEE 802.3 is a standard number for ethernet.
+
+OSPF means open shortest path first
+STP has only layer 2 and layer 1 information.
+OSPF has layer 3, layer 2 and layer 1 information.
+Layer 3  has source IP address and destination ip address.
+
+When you use ipconfig /release, your computer sends a DHCPRELEASE message.The ipconfig /release command is used to release your computer's current IP address.
+
+The ipconfig /renew command is used to force your computer to get a new IP address from the DHCP server.
 
 
 
